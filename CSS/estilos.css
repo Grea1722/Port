@@ -337,6 +337,22 @@ header .contenedor-texto .texto{
         header .menu a{
             text-shadow:2px 5px 5px #283618;
         }
+        .main .tecnologias{
+            font-size: 25px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia{
+            width: 25%;
+            margin-bottom: 30px;
+            margin-right: 40px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia img{
+            width: 150px;
+        }
+        .main .trabajos .contenedor-trabajos .trabajo:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            z-index: 2;
+        }
     }
 
     @media screen and (max-width:500px){
@@ -345,5 +361,26 @@ header .contenedor-texto .texto{
         }
         header .contenedor-texto .texto .profesion{
             font-size: 18px;
+        }
+          .main .tecnologias{
+        background-color: #D8F0EC;
+        text-align: center;
+        font-size: 30px;
+        }
+         .main .tecnologias{
+            font-size: 20px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia{
+            width: 20%;
+            margin-bottom: 30px;
+            margin-right: 40px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia img{
+            width: 150px;
+        }
+        .main .trabajos .contenedor-trabajos .trabajo:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            z-index: 2;
         }
     }
