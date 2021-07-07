@@ -326,7 +326,7 @@ header .contenedor-texto .texto{
 
 
     /*Media Query*/
-    @media screen and (max-width:800px){
+       @media screen and (max-width:800px){
         header .menu{
             text-align: center;
         }
@@ -337,6 +337,7 @@ header .contenedor-texto .texto{
         header .menu a{
             text-shadow:2px 5px 5px #283618;
         }
+
         .main .tecnologias{
             font-size: 25px;
         }
@@ -348,11 +349,6 @@ header .contenedor-texto .texto{
         .main .tecnologias .contenedor .contenedor-tecno .tecnologia img{
             width: 150px;
         }
-        .main .trabajos .contenedor-trabajos .trabajo:hover{
-            transform: scale(1.1);
-            cursor: pointer;
-            z-index: 2;
-        }
     }
 
     @media screen and (max-width:500px){
@@ -362,12 +358,8 @@ header .contenedor-texto .texto{
         header .contenedor-texto .texto .profesion{
             font-size: 18px;
         }
-          .main .tecnologias{
-        background-color: #D8F0EC;
-        text-align: center;
-        font-size: 30px;
-        }
-         .main .tecnologias{
+
+        .main .tecnologias{
             font-size: 20px;
         }
         .main .tecnologias .contenedor .contenedor-tecno .tecnologia{
@@ -378,9 +370,44 @@ header .contenedor-texto .texto{
         .main .tecnologias .contenedor .contenedor-tecno .tecnologia img{
             width: 150px;
         }
-        .main .trabajos .contenedor-trabajos .trabajo:hover{
-            transform: scale(1.1);
-            cursor: pointer;
-            z-index: 2;
+    }
+    @media screen and (max-width:400px){
+        header .contenedor-texto .texto .nombre{
+            font-size: 35px;
+        }
+        header .contenedor-texto .texto .profesion{
+            font-size: 18px;
+        }
+
+        .main .tecnologias{
+            font-size: 15px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia{
+            width: 20%;
+            margin-bottom: 30px;
+            margin-right: 40px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia img{
+            width: 100px;
         }
     }
+    @media screen and(max-width:360px){
+        header .contenedor-texto .texto .nombre{
+            font-size: 10px;
+        }
+        header .contenedor-texto .texto .profesion{
+            font-size: 10px;
+        }
+
+        .main .tecnologias{
+            font-size: 10px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia{
+            width: 20%;
+            margin-bottom: 30px;
+            margin-right: 40px;
+        }
+        .main .tecnologias .contenedor .contenedor-tecno .tecnologia img{
+            width: 75px;
+        }
+     }
