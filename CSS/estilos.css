@@ -349,6 +349,9 @@ header .contenedor-texto .texto{
         .main .tecnologias .contenedor .contenedor-tecno .tecnologia img{
             width: 150px;
         }
+            .main .trabajos .contenedor-trabajos .trabajo:hover{
+            transform: scale(1.1);
+        }
     }
 
     @media screen and (max-width:500px){
